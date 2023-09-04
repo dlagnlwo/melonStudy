@@ -44,7 +44,7 @@
                 <div class="album_menu_left">
                     <div class="album_left_song">
                         <div class="album_left_song_text">
-                            <a href=#>수록곡</a>
+                            <a href=/album>수록곡</a>
                         </div>
                     </div>
                     <div class="album_left_detail">
