@@ -1,23 +1,14 @@
 .container {
     border: 0px solid white; height: 936px;
 }
-
-/*include에 있는 a링크 효과 제거하기*/
 a {
     text-decoration: none; color: inherit; /* 기본 텍스트 색상 상속 */
 }
-
-/*placeholder 색깔변경*/
-::placeholder {
-    color: #999999;
-}
-
 /*앨범사진과 앨범정보들이 보이는 상단*/
 .album_top {
-    border: 0px solid white; width: 90%; height: 250px; display: flex;
-    position: relative; margin-left: auto; margin-right: auto;
+    border: 0px solid white; width: 1460px; height: 250px; display: flex;
+    position: relative;
 }
-
 /*앨범 사진 부분*/
 .album_top_img {
     border: 0px solid white; width: 15%; height: 250px; display: flex;
@@ -27,7 +18,7 @@ a {
     border: 0px solid red; width: 95%; height: 190px; border-radius: 10px;
 }
 .album_img img {
-    width: 100%; height: 190px; border-radius: 10px;
+    width: 185px; height: 190px; border-radius: 10px;
 }
 
 /*앨범 정보 부분*/
@@ -90,10 +81,9 @@ a {
 
 /*메뉴들이 있는 부분*/
 .album_menu {
-    border: 0px solid white; width: 90%; height: 70px; display: flex; justify-content: space-between;
-    border-bottom: 1px solid #999999; margin-left: auto; margin-right: auto;
+    border: 0px solid white; width: 1400px; height: 70px; display: flex; justify-content: space-between;
+    border-bottom: 1px solid #999999;
 }
-
 /*수록곡, 앨범상세, 댓글 메뉴버튼 ajax로 구현하기*/
 .album_menu_left {
     border: 0px solid red; width: 300px; height: 70px; display: flex; justify-content: space-around; text-align: center;
@@ -105,26 +95,20 @@ a {
 .album_menu_left > .album_left_detail {
     border: 0px solid white; width: 100px; height: 70px;
 }
-.album_menu_left > .album_left_detail > .album_left_detail_text {
-
-}
 .album_menu_left > .album_left_comment {
-    border: 0px solid white; width: 100px; height: 70px;
-}
-.album_menu_left > .album_left_comment {
-    color: #04E632;
+    border: 0px solid white; width: 100px; height: 70px; color: #04E632;
 }
 
+/*댓글작성박스부분*/
 .comment_box {
-    border: 1px solid white;width: 90%; height: 616px; margin-left: auto;
-    margin-right: auto; color: white;
+    border: 1px solid white;width: 1400px; height: 616px; color: white;
 }
 .comment_box > .comment_write_count_box{
     border: 1px solid white; width: 100%; height: 200px; display: flex;
     justify-content: center; align-items: center;
 }
 .comment_box > .comment_write_count_box > .comment_write_box{
-    border: 1px solid white; width: 60%; height: 150px;
+    border: 1px solid white; width: 1110px; height: 150px;
 }
 .comment_box > .comment_write_count_box > .comment_write_box > .comment_write_count{
     border: 0px solid white; width: 250px; height: 60px; text-align: center;

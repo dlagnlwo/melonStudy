@@ -49,7 +49,7 @@
                     </div>
                     <div class="album_left_detail">
                         <div class="album_left_detail_text">
-                            <a href="album/detail">앨범상세</a>
+                            <a href="/album/detail">앨범상세</a>
                         </div>
                     </div>
                     <div class="album_left_comment">

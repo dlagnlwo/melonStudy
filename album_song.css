@@ -82,7 +82,7 @@ a {
 /*메뉴들이 있는 부분*/
 .album_menu {
     border: 0px solid white; width: 1400px; height: 70px; display: flex; justify-content: space-between;
-    border-bottom: 1px solid #999999; margin-left: auto; margin-right: auto;
+    border-bottom: 1px solid #999999;
 }
 /*수록곡, 앨범상세, 댓글 메뉴버튼 ajax로 구현하기*/
 .album_menu_left {
@@ -90,13 +90,10 @@ a {
     color: white; line-height: 70px; font-size: 1.2rem;
 }
 .album_menu_left > .album_left_song {
-    border: 0px solid white; width: 100px; height: 70px;
+    border: 0px solid white; width: 100px; height: 70px; color: #04E632;
 }
 .album_menu_left > .album_left_detail {
     border: 0px solid white; width: 100px; height: 70px;
-}
-.album_menu_left > .album_left_detail > .album_left_detail_text {
-    cursor: pointer; color: #04E632;
 }
 .album_menu_left > .album_left_comment {
     border: 0px solid white; width: 100px; height: 70px;
@@ -122,7 +119,7 @@ a {
 /*테이블 부분*/
 table.song_tb {
     border: 0px solid red; width: 1400px; max-height: 616px; position: relative;
-    color: white; overflow-y: auto; margin-left: auto; margin-right: auto;
+    color: white; overflow-y: auto;
 }
 .head_th {
     border: 0px solid white;height: 60px; line-height: 60px; text-align: center;
