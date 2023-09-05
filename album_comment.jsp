@@ -15,7 +15,7 @@
             <div class="album_top">
                 <div class="album_top_img">
                     <div class="album_img">
-                        <img src="/resources/Img/next_level_img.png"/>
+                        <img src="/resources/Img/next_level.jpg"/>
                     </div>
                 </div>
                 <div class="album_top_text">
@@ -66,14 +66,44 @@
                             <span class="comment_span">댓글 31개</span>
                         </div>
                         <div class="user_comment_form">
-                            <div class="comment_write_img">
-                                <i class="fa-regular fa-user"></i>
-                            </div>
                             <form method="post" class="comment_form">
+                                <div class="comment_write_img">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
                                 <div class="comment_write_input">
                                     <input type="text" class="comment" name="comment" placeholder="댓글 작성하기"/>
                                 </div>
+                                <div class="comment_write_btn">
+                                    <button type="button" name="reg_btn" id="reg_btn">등록</button>
+                                </div>
                             </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="people_comment_box">
+                    <div class="member_comment_box">
+                        <div class="member_comment_count">
+                            <span class="member_comment_count_text">총 15,113개</span>
+                        </div>
+                        <div class="member_comment">
+                            <div class="member_comment_pic_box">
+                                <div class="member_comment_pic">
+                                    <img src="/resources/Img/member_comment_pic1.jpg"/>
+                                </div>
+                            </div>
+                            <div class="member_comment_mem_id">멤버아이디</div>
+                            <div class="member_comment_mem_content">댓글 내용 작성</div>
+                            <div class="member_comment_mem_date">댓글 작성 날짜</div>
+                        </div>
+                        <div class="member_comment">
+                            <div class="member_comment_pic_box">
+                                <div class="member_comment_pic">
+                                    <img src="/resources/Img/member_comment_pic2.jpg"/>
+                                </div>
+                            </div>
+                            <div class="member_comment_mem_id">멤버아이디</div>
+                            <div class="member_comment_mem_content">댓글 내용 작성</div>
+                            <div class="member_comment_mem_date">댓글 작성 날짜</div>
                         </div>
                     </div>
                 </div>

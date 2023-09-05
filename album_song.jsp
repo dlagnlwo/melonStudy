@@ -15,7 +15,7 @@
             <div class="album_top">
                 <div class="album_top_img">
                     <div class="album_img">
-                        <img src="/resources/Img/next_level_img.png"/>
+                        <img src="/resources/Img/next_level.jpg"/>
                     </div>
                 </div>
                 <div class="album_top_text">

@@ -6,28 +6,28 @@ a {
 }
 /*앨범사진과 앨범정보들이 보이는 상단*/
 .album_top {
-    border: 0px solid white; width: 1460px; height: 250px; display: flex;
+    border: 0px solid white; width: 1393px; height: 250px; display: flex;
     position: relative; margin-left: auto; margin-right: auto;
 }
 /*앨범 사진 부분*/
 .album_top_img {
-    border: 0px solid white; width: 15%; height: 250px; display: flex;
-    justify-content: center; align-items: center;
+    border: 0px solid white; width: 200px; height: 250px; display: flex;
+    align-items: center;
 }
 .album_img {
-    border: 0px solid red; width: 95%; height: 190px; border-radius: 10px;
+    border: 0px solid red; width: 200px; height: 190px; border-radius: 10px;
 }
 .album_img img {
-    width: 185px; height: 190px; border-radius: 10px;
+    width: 200px; border-radius: 10px;
 }
 
 /*앨범 정보 부분*/
 .album_top_text {
-    border: 0px solid white; width: 80%; height: 250px; color: #999999;
+    border: 0px solid white; width: 1193px; height: 250px; color: #999999;
     position: relative;
 }
 .album_top_text > .album_top_type {
-    border: 0px solid white; display: inline-block; height: 50px; line-height: 80px;
+    border: 0px solid white; display: inline-block; height: 60px; line-height: 80px;
     margin-left: 50px;
 }
 .album_top_text > .album_top_song_name {
@@ -81,8 +81,8 @@ a {
 
 /*메뉴들이 있는 부분*/
 .album_menu {
-    border: 0px solid white; width: 1400px; height: 70px; display: flex; justify-content: space-between;
-    border-bottom: 1px solid #999999;
+    border: 0px solid white; width: 1393px; height: 70px; display: flex; justify-content: space-between;
+    border-bottom: 1px solid #999999; margin-left: auto; margin-right: auto;
 }
 /*수록곡, 앨범상세, 댓글 메뉴버튼 ajax로 구현하기*/
 .album_menu_left {
@@ -118,8 +118,8 @@ a {
 
 /*테이블 부분*/
 table.song_tb {
-    border: 0px solid red; width: 1400px; max-height: 616px; position: relative;
-    color: white; overflow-y: auto;
+    border: 0px solid red; width: 1393px; max-height: 616px; position: relative;
+    color: white; overflow-y: auto; margin-left: auto; margin-right: auto;
 }
 .head_th {
     border: 0px solid white;height: 60px; line-height: 60px; text-align: center;
